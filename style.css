@@ -1,8 +1,16 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
 body {
     font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    color: #3d3d3d; 
+    color: #3d3d3d;
+    line-height: 1.5;
     margin: 0;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
 }
 
 header {
@@ -18,6 +26,7 @@ header {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    text-transform: uppercase;
     background-color: #3d3d3d; 
 }
 
@@ -29,17 +38,73 @@ header {
     display: inline-block;
     color: #ffffff;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
 }
 
 .menu a:hover,
 .menu a:focus,
 .menu a:active {
     background-color: #a8a8a8;
+    color:#ffffff;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+.gavel,
+.balance,
+.handshake,
+.police {
+    font-size: 75px;
+    color: #3b28cc;
+}
+
+.sloupce {
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sloupec {
+    flex-basis: 25%;
 }
 
 .omne,
 .kontakt {
     color: #ffffff;
     background-color: #3d3d3d;
+}
+
+.kontejner {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kontakt {
+    padding-bottom: 0;
+}
+
+.paticka {
+    text-align: center;
+    color: #a8a8a8;
+}
+
+.odsazeni {
+    margin-top: 50px;
+}
+
+.email1 {
+    color: #3d3d3d;
+}
+
+.kontakt a {
+    color: #ffffff;
+}
+
+.email2 {
+    color: #ffffff;
 }
